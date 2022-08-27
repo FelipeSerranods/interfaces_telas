@@ -1,0 +1,25 @@
+body{
+    font:normal 12pt Arial;
+    
+}
+header{
+    text-align: center;
+}
+h2{
+    font:normal 18pt Arial;
+}
+#cadastro{
+    text-align: center;
+    margin-top: 10px;
+}
+#tabela{
+    width: 400px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 30px;
+}
+td{
+    border:1px solid black;
+    text-align: center;
+    padding: 5px;
+}

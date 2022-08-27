@@ -1,0 +1,34 @@
+*
+#container{
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+header{
+  text-align: center;
+  margin-top: 200px;
+}
+input[type=email]{
+    width: 250px;
+    height: 40px;
+    font-size: medium;
+}
+input[type=password]{
+    width: 250px;
+    height: 40px;
+    font-size: medium;
+}
+div{
+    padding: 5px;
+}
+button{
+    width: 250px;
+    height: 40px;
+    font-size: medium;
+}
+#senha:hover{
+    color: darkblue
+}
+#senha{
+    text-decoration: none;
+}

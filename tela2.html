@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Maquinas</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="maquina.js"></script>
+
+</head>
+<body>
+    <header>
+        <img src="Cpop.png" alt="logo Cpop" width=200 height=60>  
+        <h2>Lista e cadastro de novas maquinas<h2>
+    </header>
+
+    <div id="cadastro">
+        Nome:<input type="text" name="nome" id="nome">
+        Fabricante:<input type="text" name="nomefabr" id="nomefabr">
+        Comando:<input type="number" name="comando" id="comando">
+        Potencia(w)<input type="number" name="potencia" id="potencia">
+        <input type="time" name="horas" id="horas" step="2">
+        <button onclick="inserir()">Cadastrar Maquina</button>
+    </div>
+    <table id="tabela">
+        <thead>
+            <th>Nome</th>
+            <th>Fabricante</th>
+            <th>Comando numerico</th>
+            <th>Potencia(W)</th>
+            <th>horas Ligadas</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Torno Mecânico 350mm</td>
+                <td>Nagano</td>
+                <td>3400055343</td>
+                <td>550</td>
+                <td>03:40:02</td>
+            </tr>
+            <tr>
+                <td>Máquina CNC </td>
+                <td>Nagano</td>
+                <td>5589000321</td>
+                <td>80</td>
+                <td>05:30:04</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
